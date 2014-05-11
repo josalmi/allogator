@@ -1,4 +1,8 @@
-#Tuntikirjanpito
+Tuntikirjanpito
+===============
 
-| Lauantai 10.5. | Sunnuntai 11.5. |
-| 12             | 6               |
+
+| Päivä| Tuntia |
+|-----:|-------:|
+| 11.5.| 12     |
+| 12.5.| 6      |
