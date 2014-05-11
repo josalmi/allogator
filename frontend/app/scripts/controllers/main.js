@@ -48,6 +48,18 @@ angular.module('frontendApp')
     $scope.remoteWeeks[week][day][slot].push({name: user, type: type});
   };
 
+  $scope.advancedContains = function(array, field, value) {
+    if(array === undefined){
+      return false;
+    }
+    for(var i = 0; i < array.length; i++){
+      if(array[i][field] == value){
+        return true;
+      }
+    }
+    return false;
+  }
+
   $scope.range = function(min, max, step){
     step = (step === undefined) ? 1 : step;
     var input = [];
